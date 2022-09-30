@@ -1,4 +1,14 @@
 const carrinhoController = {
-    index:(req,res) =>{res.render('carrinho')}
-    };
-    module.exports = carrinhoController;
+    carrinho:(req,res) =>{
+    res.render('carrinho')
+    },
+
+    adicionar: (req, res) => {
+    },
+    remover: (req, res) => {
+    }
+}
+module.exports = carrinhoController
+
+
+

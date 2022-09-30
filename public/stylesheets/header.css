@@ -23,7 +23,7 @@ header {
 }
 
 .logocab {
-  background-color: greenyellow;
+
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
 }
 
@@ -32,16 +32,23 @@ header {
   justify-content: space-around;
   justify-items: flex-start;
   width: 50%;
-  color: inherit;
+  color: #fff ;
   font-size: 25px;
   margin-right: 35px;
   margin-left: 25px;
-  background-color: blue;
+  text-decoration: none;
+  
+
+}
+
+.barra a{
+  color: #fff;
+  text-decoration: none;
 }
 
 .segundo {
   display: flex;
-  width: 220px;
+  width: 320px;
   justify-content: space-between;
   align-items: center;
   justify-items: center;
@@ -54,21 +61,25 @@ header {
   justify-content: flex-start;
   align-items: center;
   width: 30px;
-  background-color: aquamarine;
+ 
 }
 
 .box {
   display: flex;
   padding: 5px;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-right: 30px;
-  width: 450px;
-  height: 60px;
+  width: 650px;
+  height: 30px;
   margin-left: 30px;
-  background-color: #FF007D;
+ 
+}
+.box svg {
+  width: 25px;
+  height: 25px;
+  color: #fff;
 
 }
-
 
 
 .main {
