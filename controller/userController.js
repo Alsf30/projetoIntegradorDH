@@ -1,3 +1,5 @@
+const Users = require('../models/users')
+
 const userController = {
     cadastro: (req, res) => {
         res.render('cadastro')
@@ -10,9 +12,10 @@ const userController = {
 
     salvarform: (req,res) => {
         const formulario = req.body;
+        const avatar = req.file.filename;
+        Users.create(formulario,avatar);
+        res.redirect('/users/login');
+       }
 
-        res.redirect ('/users/login');
-
-    },
 };
 module.exports = userController;

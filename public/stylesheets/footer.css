@@ -11,8 +11,9 @@ footer {
     flex-direction: row;
     
 }
-ul{
+ul {
     padding-inline-start: 0;
+    
 }
 
 .painel {
@@ -20,19 +21,18 @@ ul{
     justify-content: center;
     align-items: center;
     width: 1900px;
-    height: 300px;
+    height: 250px;
 }
 
 .cardx {
     background-color: black;
     color: white;
-    width: 20%;
+    width: 200px;
     height: 200px;
     padding: 5px;
     justify-content: center;
     align-items: center;
-    margin-right: 25px;
-    margin-bottom: 40px;
+   
 }
 
 .logo2 {
@@ -56,16 +56,41 @@ ul{
 
 .lista {
     flex-direction: row;
+
 }
+
+.lista a{
+    color: #ffffff;
+    margin-bottom: 8px;
+    text-decoration: none;
+    
+}
+
+.lista li :hover {
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.2s;
+    color: #FF007D;
+    
+  }
+
 
 .card2 {
     color: #ffffff;
-    width: 20%;
+    width: 320px;
     height: 200px;
     padding: 10px;
     margin-bottom: 40px;
     justify-content: center;
     align-items: center;
+}
+.listaContato li {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ffffff;
+    line-height: 25px;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
 }
 h3 {
     color: #FF007D;

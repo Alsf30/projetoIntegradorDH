@@ -17,7 +17,10 @@ const pageController = {
     },
     sale:(req,res) =>{
         res.render('sale')
-    }
+    },
+    pesquisa:(req,res) => {
+        res.render('pesquisa')
+    },
 
 };
 module.exports = pageController;

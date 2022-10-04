@@ -12,6 +12,7 @@ router.get("/tenis",pageController.tenis )
 router.get("/marcas",pageController.marcas )
 router.get("/acessorios",pageController.acesssorios)
 router.get("/sale",pageController.sale )
+router.get('/pesquisa',pageController.pesquisa)
 
 
 
