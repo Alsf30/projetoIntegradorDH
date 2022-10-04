@@ -23,11 +23,10 @@ body{
       display: flex;
       color:#aa0444
     }
-    .info{
-      display: block;
+    .inputuser{
       border: 1px solid #dcdcdc;
-      margin-bottom: 9%;
-      height:4vh
+      margin-bottom: 10px;
+      height:5vh;
       }
       
       .infon{
@@ -79,6 +78,10 @@ body{
       align-items: center;
       display: flex
   }
-  .blocoInfo{
+  .blocoinputuser{
   margin-left: 10%;
+  justify-content: center;
+  align-items: center;
   }
+
+ 
