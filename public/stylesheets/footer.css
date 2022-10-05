@@ -2,10 +2,9 @@ footer {
     background-color: black;
     display: flex;
     width: 100%;
-    height: 250px;
     padding: 10px;
     margin: 0 auto;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     flex-direction: row;
@@ -18,17 +17,15 @@ ul {
 
 .painel {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 1900px;
-    height: 250px;
+    justify-content: space-between;
+    width: 100%;
+    padding: 16px 24px;
 }
 
 .cardx {
-    background-color: black;
+ 
     color: white;
     width: 200px;
-    height: 200px;
     padding: 5px;
     justify-content: center;
     align-items: center;
@@ -51,12 +48,21 @@ ul {
     display: flex;
     justify-content: space-between;
     width: 40px;
+}
+
+.redes i {
+    width: 20px;
     height: 20px;
+    color: #ffffff;
 }
 
 .lista {
     flex-direction: row;
 
+}
+
+.lista li{
+    margin-bottom: 10px;
 }
 
 .lista a{
@@ -147,3 +153,8 @@ hr{
     border: solid 1px  rgba(180, 8 , 94,0.3);
     width: 30%;
 }
+
+
+
+
+
