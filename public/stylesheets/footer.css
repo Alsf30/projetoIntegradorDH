@@ -17,7 +17,7 @@ ul {
 
 .painel {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 100%;
     padding: 16px 24px;
 }
@@ -30,6 +30,13 @@ ul {
     justify-content: center;
     align-items: center;
    
+}
+
+.cardx h3, .cardx h5 {
+
+  
+
+
 }
 
 .logo2 {
@@ -54,6 +61,12 @@ ul {
     width: 20px;
     height: 20px;
     color: #ffffff;
+    transition: all 0.2s;
+}
+
+.redes i:hover{
+   color: #FF007D;
+
 }
 
 .lista {
