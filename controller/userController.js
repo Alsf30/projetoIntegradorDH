@@ -16,6 +16,6 @@ const userController = {
         Users.create(formulario,avatar);
         res.redirect('/users/login');
        }
-
+       
 };
 module.exports = userController;
