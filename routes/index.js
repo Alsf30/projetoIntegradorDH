@@ -6,7 +6,7 @@ const carrinhoController = require('../controller/carrinhoController');
 const userController = require('../controller/userController');
 
 
-router.get("/home",pageController.home )
+router.get("/",pageController.home )
 router.get("/roupas",pageController.roupas )
 router.get("/tenis",pageController.tenis )
 router.get("/marcas",pageController.marcas )

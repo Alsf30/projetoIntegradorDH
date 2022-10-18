@@ -11,7 +11,7 @@ const writeToDB = () =>{
 
 const Users = {
     create: (usuario,avatar) => {
-        db.usuario.push({id: v4(),...usuario,avatar});
+        db.user.push({id: v4(),...usuario,avatar});
         writeToDB()
     }
 }
